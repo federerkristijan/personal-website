@@ -58,3 +58,14 @@
   position: relative;
   flex: 1;
 }
+
+.i-right > * {
+  position: absolute;
+  z-index: 1;
+}
+
+.i-right > img {
+  border-radius: 50%;
+  left: 10rem;
+  border-style: solid;
+}
