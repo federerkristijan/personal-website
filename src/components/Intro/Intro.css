@@ -64,12 +64,13 @@
   z-index: 1;
 }
 
+/* spinning cube animation */
 .stage-cube-cont {
   width: 50%;
   height: 75%;
   top: 0;
-  padding-top: 18%;
   margin-left: 0;
+  padding-top: 2rem;
   right: 0;
   overflow: hidden;
   animation: fadeIn 1s 1.7s backwards;
@@ -85,17 +86,22 @@
   margin-left: calc(50% - 100px);
 }
 
-.cubespinner > :nth-child(1) {
+.cubespinner > div {
     position: absolute;
-    width: 120px;
-    height: 120px;
-    border: 1px solid #ccc;
-    background: rgba(255, 255, 255, 0.4);
-    font-size: 100px;
+    width: 8rem;
+    height: 8rem;
+    border: 2px solid rgb(239, 132, 132);
+    background: rgba(133, 146, 212, 0.4);
+    font-size: large;
     display: flex;
     justify-content: center;
     align-items: center;
     box-shadow: 0 0 20px 0px lightyellow;
+}
+
+  .cuberspinner > :nth-child(1) {
+    font-size: 5rem;
+  }
 
   .face1 {
     transform: translateZ(100px);
@@ -120,7 +126,7 @@
   .face6 {
     transform: rotateX(-90deg) translateZ(100px);
   }
-}
+
 
 @keyframes spincube {
   from,
@@ -143,10 +149,3 @@
     transform: rotateY(-90deg);
   }
 }
-
-/* .i-right > img {
-  border-radius: 50%;
-  left: 10rem;
-  border-style: solid;
-  box-shadow: var(--boxShadow);
-} */

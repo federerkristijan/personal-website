@@ -26,8 +26,8 @@ const Intro = () => {
           <div className="cubespinner">
             {cube.map((face, index) => {
               return (
-                <div className={`face${index + 1}`}>
-                  <FontAwesomeIcon icon={face.icon} color={face.color} />
+                <div className={`face${index + 1}`} >
+                  <FontAwesomeIcon icon={face.icon} color={face.color} style={{ fontSize: "4rem"}}/>
                 </div>
               )
             })}
