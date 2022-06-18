@@ -68,4 +68,5 @@
   border-radius: 50%;
   left: 10rem;
   border-style: solid;
+  box-shadow: var(--boxShadow);
 }
