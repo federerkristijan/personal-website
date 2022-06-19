@@ -4,6 +4,7 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css'
 import Scoobie from '../../assets/images/Scoobie.png'
 import Mine from '../../assets/images/minesweeper.png'
+import Food from '../../assets/images/fooderly_responsive.png'
 
 const Portfolio = () => {
   return (
@@ -24,6 +25,9 @@ const Portfolio = () => {
         </SwiperSlide>
         <SwiperSlide>
           <img src={Mine} alt='slide2' />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={Food} alt='slide3' />
         </SwiperSlide>
       </Swiper>
     </div>
