@@ -21,7 +21,7 @@ const Portfolio = () => {
       className='portfolio-slider'
       >
         <SwiperSlide>
-          <img src={Scoobie} alt='slide1' />
+          <img src={Scoobie} alt='slide1' height={'48%'} />
         </SwiperSlide>
         <SwiperSlide>
           <img src={Mine} alt='slide2' />
