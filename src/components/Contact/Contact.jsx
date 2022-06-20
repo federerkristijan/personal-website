@@ -1,6 +1,6 @@
 import { useState, useRef } from 'react'
 import "./Contact.css"
-// import emailjs from '@emailjs/browser'
+import emailjs from '@emailjs/browser'
 
 const Contact = () => {
   const form = useRef()
@@ -9,7 +9,7 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault()
 
-    // emailjs
+    emailjs
       .sendForm(
         'service_md6sl5x',
         'template_92hpdem',
