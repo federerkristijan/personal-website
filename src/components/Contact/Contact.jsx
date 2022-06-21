@@ -1,36 +1,36 @@
-import { useState, useRef } from 'react'
-import "./Contact.css"
-import emailjs from '@emailjs/browser'
+import { useState, useRef } from "react";
+import "./Contact.css";
+import emailjs from "@emailjs/browser";
 
 const Contact = () => {
-  const form = useRef()
-  const [done ,setDone] = useState()
+  const form = useRef();
+  const [done, setDone] = useState();
 
   const sendEmail = (e) => {
-    e.preventDefault()
+    e.preventDefault();
 
     emailjs
       .sendForm(
-        'service_md6sl5x',
-        'template_92hpdem',
+        "service_md6sl5x",
+        "template_92hpdem",
         form.current,
-        'PeMqd63ixaE07sXTX'
+        "PeMqd63ixaE07sXTX"
       )
       .then(
         (result) => {
-          alert('Message successfully sent!')
-          window.location.reload(false)
-          setDone(true)
-          form.reset(true)
+          alert("Message successfully sent!");
+          window.location.reload(false);
+          setDone(true);
+          form.reset(true);
         },
         (error) => {
-          alert('Failed to send the message, please try again!')
+          alert("Failed to send the message, please try again!");
         }
-      )
-  }
+      );
+  };
 
   return (
-    <div className="contact-form" id='contact'>
+    <div className="contact-form" id="contact">
       <div className="w-left">
         <div className="awesome">
           <h1>Contact me</h1>
