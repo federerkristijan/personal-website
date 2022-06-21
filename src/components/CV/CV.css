@@ -1,9 +1,9 @@
-.cv {
+.cv-wrapper {
   padding: 0 3rem 0 3rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 30rem;
+  height: 70rem;
   margin-bottom: 4rem;
   margin-top: 3rem;
 }
@@ -15,14 +15,20 @@
   /* margin-bottom: 4rem; */
 }
 
-.i-cv > img {
+.i-cv img {
   width: 13rem;
-  height: 13rem;
   border-radius: 10%;
 }
 
 .i-cv > img:hover {
   transform: scale(1.8);
-  margin-bottom: 4rem;
+  margin-bottom: 6rem;
   margin-top: 4rem;
+}
+
+@media screen and (max-width:780px) {
+  .cv-wrapper {
+    margin-top: 3rem;
+    height: 35rem;
+  }
 }

@@ -1,4 +1,4 @@
-.n-wrapper{
+.navbar-wrapper{
   height: 10vh;
   display: flex;
   justify-content: space-between;
@@ -44,8 +44,8 @@
   flex: 2;
 } */
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   .n-list {
     display: none;
   }
-}
+} */

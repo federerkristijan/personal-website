@@ -1,8 +1,8 @@
-.a-wrapper {
+.about-wrapper {
   display: flex;
   height: 77vh;
   flex-direction: column;
-  margin-top: 6rem;
+  margin-top: 1rem;
 }
 
 .a-heading {
@@ -17,4 +17,21 @@
   font-weight: 100;
   font-size: 1.8rem;
   line-height: 2rem;
+}
+
+@media screen and (max-width:780px) {
+  .about-wrapper {
+    height: 30vh;
+    margin-bottom: 10rem;
+  }
+
+  .a-heading {
+    font-size: 1.8rem;
+    line-height: 4rem;
+  }
+
+  .a-text {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+  }
 }
