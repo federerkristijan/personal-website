@@ -5,6 +5,7 @@
   padding: 0.5rem 0.5rem;
   border: 0.5px solid grey;
   border-radius: 25px;
+  background: white;
 }
 
 .n-left{
@@ -43,7 +44,7 @@
   flex: 2;
 } */
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
   .n-list {
     display: none;
   }
