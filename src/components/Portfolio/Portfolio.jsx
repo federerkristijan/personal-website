@@ -2,7 +2,7 @@ import React from 'react'
 import './Portfolio.css'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css'
-import Scoobie from '../../assets/images/Scoobie.png'
+import Scoobie from '../../assets/images/scoobie2.png'
 import Mine from '../../assets/images/minesweeper.png'
 import Food from '../../assets/images/fooderly_responsive.png'
 
@@ -14,8 +14,8 @@ const Portfolio = () => {
       <span>Portfolio</span>
       {/* slider */}
       <Swiper
-      spaceBetween={30}
-      slidesPerView="auto"
+      spaceBetween={10}
+      slidesPerView={2}
       grabCursor={true}
       className='portfolio-slider'
       >

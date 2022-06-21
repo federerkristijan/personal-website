@@ -4,7 +4,7 @@
   justify-content: center;
   flex-direction: column;
   max-height: 70vh;
-  /* margin-bottom: 10rem; */
+  margin-bottom: 3rem;
 }
 
   /* header */
@@ -24,18 +24,17 @@
   /* slider */
   .portfolio .swiper {
     overflow: visible!important;
-  
+
   }
 
   .portfolio-slider {
     margin-top: 3rem;
-    /* width: 100%; */
+    width: 100%;
   }
 
   .portfolio-slider .swiper-slide {
     width: 20rem;
     display: flex;
-    height: 100%;
   }
 
   .portfolio img {
@@ -44,3 +43,14 @@
     border-radius: 19px;
     margin-bottom: 20rem;
   }
+
+@media screen and (max-width: 768px) {
+  .portfolio {
+    padding: 0;
+  }
+
+  .portfolio img {
+    width: 10rem;
+    gap: 10rem;
+  }
+}
