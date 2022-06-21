@@ -1,6 +1,6 @@
 import React from "react";
 import "./Intro.css";
-import { faGithubAlt, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import cube from './Cube/cube.js'
 
@@ -15,7 +15,7 @@ const Intro = () => {
         <button className="button i-button">Hire me</button>
         <div className="i-icons">
           <a href="https://github.com/federerkristijan">
-            <FontAwesomeIcon icon={faGithubAlt} color="var(--black)" />
+            <FontAwesomeIcon icon={faGithub} color="var(--black)" />
           </a>
           <a href="https://www.linkedin.com/in/kristijan-federer/" >
             <FontAwesomeIcon icon={faLinkedin} color="var(--balck)"/>
