@@ -14,7 +14,7 @@ const Intro = () => {
           <span>Frontend Developer with a fullstack background</span>
         </div>
         <Link to="contact" spy={true} smooth={true}>
-        <button className="button i-button">Contact me</button>
+        <button className="button i-button" to="contact">Contact me</button>
         </Link>
 
         {/* <div className="i-icons">

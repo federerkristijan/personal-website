@@ -12,16 +12,15 @@ const Portfolio = () => {
       {/* heading */}
       <span>Recent Projects</span>
       <span>Portfolio</span>
-
       {/* slider */}
       <Swiper
-      spaceBetween={20}
-      slidesPerView={1}
+      spaceBetween={30}
+      slidesPerView="auto"
       grabCursor={true}
       className='portfolio-slider'
       >
         <SwiperSlide>
-          <img src={Scoobie} alt='slide1' height='550rem' />
+          <img src={Scoobie} alt='slide1' />
         </SwiperSlide>
         <SwiperSlide>
           <img src={Mine} alt='slide2' />
