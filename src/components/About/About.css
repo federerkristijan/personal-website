@@ -1,0 +1,20 @@
+.a-wrapper {
+  display: flex;
+  height: 77vh;
+  flex-direction: column;
+  margin-top: 6rem;
+}
+
+.a-heading {
+  color: var(--black);
+  font-weight: bold;
+  font-size: 2.8rem;
+  line-height: 8rem;
+}
+
+.a-text {
+  color: var(--orange);
+  font-weight: 100;
+  font-size: 1.8rem;
+  line-height: 2rem;
+}

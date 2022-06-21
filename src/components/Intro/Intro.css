@@ -2,6 +2,7 @@
   display: flex;
   height: 77vh;
   margin-top: 6rem;
+  margin-bottom: 23rem;
 }
 
 .i-left {
@@ -21,15 +22,17 @@
   color: var(--black);
   font-weight: bold;
   font-size: 2.8rem;
+  line-height: 8rem;
 }
 
 .i-name > :nth-child(2) {
   color: var(--orange);
   font-weight: 100;
   font-size: 1.8rem;
+  line-height: 2rem;
 }
 
-.i-button {
+/* .i-button {
   width: 6rem;
   height: 2rem;
 }
@@ -51,7 +54,7 @@
 
 .i-icons > :nth-child(2) {
   margin-left: 3rem;
-}
+} */
 
 .i-right {
   display: flex;

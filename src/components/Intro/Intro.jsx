@@ -1,8 +1,9 @@
 import React from "react";
 import "./Intro.css";
-import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+// import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import cube from './Cube/cube.js'
+import { Link } from 'react-scroll'
 
 const Intro = () => {
   return (
@@ -12,15 +13,18 @@ const Intro = () => {
           <span>Kristijan Federer</span>
           <span>Frontend Developer with a fullstack background</span>
         </div>
-        <button className="button i-button">Hire me</button>
-        <div className="i-icons">
+        <Link to="contact" spy={true} smooth={true}>
+        <button className="button i-button">Contact me</button>
+        </Link>
+
+        {/* <div className="i-icons">
           <a href="https://github.com/federerkristijan">
             <FontAwesomeIcon icon={faGithub} color="var(--black)" />
           </a>
           <a href="https://www.linkedin.com/in/kristijan-federer/" >
             <FontAwesomeIcon icon={faLinkedin} color="var(--balck)"/>
           </a>
-        </div>
+        </div> */}
       </div>
       <div className="stage-cube-cont">
           <div className="cubespinner">
