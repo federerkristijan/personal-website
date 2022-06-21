@@ -2,25 +2,24 @@
   height: 10vh;
   display: flex;
   justify-content: space-between;
+  padding: 0.5rem 0.5rem;
+  border: 0.5px solid grey;
+  border-radius: 25px;
 }
 
 .n-left{
   flex: 1;
   align-items: center;
+  justify-content: flex-start;
   display: flex;
   gap: 2rem;
-}
-
-.n-name {
-  font-size: 1.3rem;
-  font-weight: bold;
 }
 
 .n-right {
   display: flex;
   flex: 1;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
   font-weight: 400;
 }
 
@@ -40,6 +39,12 @@
   color: var(--orange);
 }
 
-.n-button {
+/* .n-button {
   flex: 2;
+} */
+
+@media screen and (max-width: 780px) {
+  .n-list {
+    /* display:none; button is out, need links */
+  }
 }

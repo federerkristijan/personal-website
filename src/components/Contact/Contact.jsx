@@ -32,7 +32,7 @@ const Contact = () => {
   return (
     <div className="contact-form" id="contact">
       <div className="w-left">
-        <div className="awesome">
+        <div className="text">
           <h1>Contact me</h1>
           <div
             className="blur s-blur"

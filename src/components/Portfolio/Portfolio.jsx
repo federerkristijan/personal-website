@@ -15,13 +15,13 @@ const Portfolio = () => {
 
       {/* slider */}
       <Swiper
-      spaceBetween={15}
+      spaceBetween={20}
       slidesPerView={1}
       grabCursor={true}
       className='portfolio-slider'
       >
         <SwiperSlide>
-          <img src={Scoobie} alt='slide1' height={'48%'} />
+          <img src={Scoobie} alt='slide1' height='550rem' />
         </SwiperSlide>
         <SwiperSlide>
           <img src={Mine} alt='slide2' />

@@ -1,6 +1,6 @@
 import React from 'react'
 import './CV.css'
-import CV_png from '../../assets/images/KFCV.png'
+import CV_png from '../../assets/images/KFCV.svg'
 import CV_pdf from '../../assets/images/CV.pdf'
 
 const CV = () => {
