@@ -152,3 +152,15 @@
     transform: rotateY(-90deg);
   }
 }
+
+@media screen and (max-width:780px) {
+  .intro {
+    flex-direction: column;
+    left: 3rem;
+  }
+
+  .i-right > .stage-cube-cont {
+    transform: scale(0.8);
+    left: -3rem;
+  }
+}

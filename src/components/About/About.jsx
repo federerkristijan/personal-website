@@ -1,18 +1,21 @@
-import React from 'react'
-import './About.css'
+import React from "react";
+import "./About.css";
 
 const About = () => {
   return (
     <div className="a-wrapper">
-      <div className="a-heading">
-        About me
-      </div>
+      <div className="a-heading">About me</div>
       <div className="a-text">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum quidem aspernatur omnis. Dolor sed sint sequi doloremque neque adipisci reiciendis. Voluptatem cupiditate minus asperiores nihil deserunt, quis molestias quo similique!
+        I am ambitious front-end developer looking for a role in an IT company,
+        with a healthy work enivronment, that would allow me to dive deeper into
+        coding, embrace new creative challenges, and further develop my skills
+        and learn new ones.
+        Digital native, cosmopolite and polyglot, with a
+        self-managing 'Can-do' mindset and positive attitude, that would be a
+        rejuvenating addition to your team!
       </div>
     </div>
+  );
+};
 
-  )
-}
-
-export default About
+export default About;

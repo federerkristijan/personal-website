@@ -43,8 +43,8 @@
   flex: 2;
 } */
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 480px) {
   .n-list {
-    /* display:none; button is out, need links */
+    display: none;
   }
 }

@@ -3,8 +3,8 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  height: 30vh;
-  margin-bottom: 10rem;
+  max-height: 70vh;
+  /* margin-bottom: 10rem; */
 }
 
   /* header */
@@ -24,15 +24,18 @@
   /* slider */
   .portfolio .swiper {
     overflow: visible!important;
+  
   }
 
   .portfolio-slider {
     margin-top: 3rem;
-    width: 100%;
+    /* width: 100%; */
   }
 
   .portfolio-slider .swiper-slide {
     width: 20rem;
+    display: flex;
+    height: 100%;
   }
 
   .portfolio img {
