@@ -5,7 +5,7 @@ import { Link } from "react-scroll";
 
 const Navbar = () => {
   return (
-    <div className="n-wrapper">
+    <div className="navbar-wrapper">
       <div className="n-left">
         <div className="n-logo">
           <img src={Logo} alt="logo1" height="60rem" width="60rem" />

@@ -4,7 +4,7 @@
   justify-content: center;
   flex-direction: column;
   max-height: 70vh;
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
 }
 
   /* header */
@@ -47,10 +47,12 @@
 @media screen and (max-width: 768px) {
   .portfolio {
     padding: 0;
+    min-height: 40rem;
   }
 
   .portfolio img {
     width: 10rem;
     gap: 10rem;
+    margin-bottom: 1rem;
   }
 }

@@ -157,11 +157,12 @@
   .intro {
     flex-direction: column;
     left: 3rem;
-    gap: 1rem;
+    gap: 3rem;
+    margin-bottom: 1rem;
   }
 
   .cubespinner > div {
-    transform: scale(0.8);
-    left: -3rem;
+    width: 5rem;
+    height: 5rem;
   }
 }

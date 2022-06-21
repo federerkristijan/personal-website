@@ -4,7 +4,7 @@ import * as Unicons from '@iconscout/react-unicons'
 
 const Footer = () => {
   return (
-    <div className="footer">
+    <div className="footer-wrapper">
       <div className="f-content">
         <span>federer.kristijan@gmail.com</span>
         <div className="f-icons">

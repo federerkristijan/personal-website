@@ -1,9 +1,10 @@
-.footer {
+.footer-wrapper {
   display: flex;
   align-items: center;
   margin: -0.5rem -3.5rem;
-  /* position: relative; */
   margin-top: 5rem;
+  width: 100%;
+  background: grey;
 }
 
 .f-content {
@@ -22,4 +23,12 @@
   display: flex;
   gap: 2rem;
   margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 780px){
+  .f-content{
+    transform: scale(0.8);
+    gap: 1rem;
+    background: grey;
+  }
 }
