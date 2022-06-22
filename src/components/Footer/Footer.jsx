@@ -8,8 +8,12 @@ const Footer = () => {
       <div className="f-content">
         <span>federer.kristijan@gmail.com</span>
         <div className="f-icons">
-          <Unicons.UilGithub color='grey' size='1.8rem' />
-          <Unicons.UilLinkedin color='grey' size='1.8rem' />
+          <a href="https://github.com/federerkristijan">
+            <Unicons.UilGithub color='grey' size='1.8rem' />
+          </a>
+          <a href="https://www.linkedin.com/in/kristijan-federer/" >
+            <Unicons.UilLinkedin color='grey' size='1.8rem' />
+          </a>
         </div>
       </div>
     </div>

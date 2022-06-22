@@ -17,6 +17,7 @@
   margin-top: 4rem;
   gap: 3.5rem;
   color: var(--orange);
+  background: lightgrey;
 }
 
 .f-icons {
