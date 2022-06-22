@@ -160,11 +160,24 @@
     left: 3rem;
     gap: 3rem;
     margin-bottom: 1rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .i-name > :nth-child(1) {
+    font-size: 1.8rem;
+    line-height: 2rem;
+  }
+
+  .i-name > :nth-child(2) {
+    font-size: 1rem;
   }
 
   .cubespinner > div {
-    width: 4rem;
+    width: 5rem;
     height: 4rem;
+    margin-bottom: 4rem;
+    margin-left: 50vw;
   }
 
   .cuberspinner > :nth-child(1) {

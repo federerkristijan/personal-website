@@ -30,6 +30,8 @@
   .f-content{
     transform: scale(0.8);
     gap: 1rem;
-    background: grey;
+    background: lightgrey;
+    min-width: 125vw;
+    margin: auto -13vw;
   }
 }

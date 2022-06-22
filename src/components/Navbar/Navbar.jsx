@@ -29,7 +29,9 @@ const Navbar = () => {
     <div className="navbar" >
       <div className="n-left">
         <div className="n-logo">
-          <img src={Logo} alt="logo1" height="60rem" width="60rem" />
+          <Link to="contact" spy={true} smooth={true}>
+            <img src={Logo} alt="logo1" height="60rem" width="60rem" />
+          </Link>
         </div>
       </div>
       <div className="n-right">
