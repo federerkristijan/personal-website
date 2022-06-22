@@ -50,9 +50,12 @@
     min-height: 40rem;
   }
 
+  .swiper-wrapper {
+    gap: 5rem;
+  }
+
   .portfolio img {
     width: 10rem;
-    gap: 10rem;
     margin-bottom: 1rem;
   }
 }

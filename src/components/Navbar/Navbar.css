@@ -58,7 +58,29 @@
 } */
 
 @media screen and (max-width: 768px) {
+  .navbar {
+    display: flex;
+    min-width: 100%;
+  }
+
+  .n-list > ul {
+    gap: 1rem;
+  }
+
   .n-logo {
     width: 50px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .n-list > ul {
+    display: none;
+  }
+
+  .n-left {
+    display: flex;
+    justify-content: center;
+    padding-left: 20vw;
+
   }
 }

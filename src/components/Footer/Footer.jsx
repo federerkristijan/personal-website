@@ -9,10 +9,10 @@ const Footer = () => {
         <span>federer.kristijan@gmail.com</span>
         <div className="f-icons">
           <a href="https://github.com/federerkristijan">
-            <Unicons.UilGithub color='grey' size='1.8rem' />
+            <Unicons.UilGithub color='black' size='1.8rem' />
           </a>
           <a href="https://www.linkedin.com/in/kristijan-federer/" >
-            <Unicons.UilLinkedin color='grey' size='1.8rem' />
+            <Unicons.UilLinkedin color='black' size='1.8rem' />
           </a>
         </div>
       </div>
