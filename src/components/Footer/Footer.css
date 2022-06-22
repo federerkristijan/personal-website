@@ -17,7 +17,7 @@
   margin-top: 4rem;
   gap: 3.5rem;
   color: var(--orange);
-  background: lightgrey;
+  background: var(--background);
 }
 
 .f-icons {
@@ -30,8 +30,8 @@
   .f-content{
     transform: scale(0.8);
     gap: 1rem;
-    background: lightgrey;
-    min-width: 125vw;
+    background: var(--background);
+    min-width: 126vw;
     margin: auto -13vw;
   }
 }
