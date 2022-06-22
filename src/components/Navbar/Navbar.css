@@ -14,11 +14,11 @@
   overflow: none;
 }
 
-.scrolled {
+/* .scrolled {
   position: fixed;
   top: 0;
   left: 0;
-}
+} */
 
 .n-left{
   flex: 1;
