@@ -162,7 +162,11 @@
   }
 
   .cubespinner > div {
-    width: 5rem;
-    height: 5rem;
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .cuberspinner > :nth-child(1) {
+    font-size: 3rem;
   }
 }
