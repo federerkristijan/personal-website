@@ -1,11 +1,31 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Navbar.css";
 import Logo from "../../assets/images/kf_logo.png";
 import { Link } from "react-scroll";
 
 const Navbar = () => {
+  const [scrolled, setScrolled] = React.useState(false)
+
+  const scrollHandler = () => {
+    const offset = window.scrollY
+    if(offset > 200) {
+      setScrolled(true)
+    } else {
+      setScrolled(false)
+    }
+  }
+
+  useEffect(() => {
+    window.addEventListener("scroll", scrollHandler)
+  })
+
+  let navbarClasses = ["navbar"]
+  if(scrolled) {
+    navbarClasses.push("scrolled")
+  }
+
   return (
-    <div className="navbar-wrapper">
+    <div className={navbarClasses.join(" ")}>
       <div className="n-left">
         <div className="n-logo">
           <img src={Logo} alt="logo1" height="60rem" width="60rem" />

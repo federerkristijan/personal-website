@@ -1,11 +1,23 @@
-.navbar-wrapper{
-  height: 10vh;
+.navbar {
+  max-width: 100%;
+  min-height: 6vh;
+  width: 100%;
+  box-sizing: border-box;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 0.5rem 0.5rem;
   border: 0.5px solid grey;
   border-radius: 25px;
   background: white;
+  transition: all .7s ease-in;
+  overflow: none;
+}
+
+.scrolled {
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 
 .n-left{
@@ -45,8 +57,8 @@
   flex: 2;
 } */
 
-/* @media screen and (max-width: 768px) {
-  .n-list {
-    display: none;
+@media screen and (max-width: 768px) {
+  .n-logo {
+    width: 50px;
   }
-} */
+}
