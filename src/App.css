@@ -17,6 +17,7 @@
     overflow: hidden;
     color: var(--black);
     background: var(--background);
+    margin-left: -1.3rem;
 }
 
 .button {
