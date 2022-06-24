@@ -75,7 +75,7 @@
   margin-left: 0;
   padding-top: 2rem;
   right: 0;
-  overflow: hidden;
+  overflow: visible;
   animation: fadeIn 1s 1.7s backwards;
   padding: 130px 0;
 }
