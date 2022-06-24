@@ -75,7 +75,7 @@
   margin-left: 0;
   padding-top: 2rem;
   right: 0;
-  overflow: hidden;
+  overflow: visible;
   animation: fadeIn 1s 1.7s backwards;
   padding: 130px 0;
 }
@@ -94,7 +94,7 @@
     position: absolute;
     width: 5rem;
     height: 5rem;
-    border: 2px solid rgb(239, 132, 132);
+    border: 3px solid rgb(239, 132, 132);
     background: rgba(133, 146, 212, 0.4);
     font-size: large;
     display: flex;
