@@ -20,12 +20,15 @@ const Portfolio = () => {
       className='portfolio-slider'
       >
         <SwiperSlide>
+        <a href='https://github.com/sailman86/scoobie'>Scoobie: dating App for dogs</a>
           <img src={Scoobie} alt='slide1' />
         </SwiperSlide>
         <SwiperSlide>
+          <a href='https://github.com/federerkristijan/minesweeper'>Minesweeper Game</a>
           <img src={Mine} alt='slide2' />
         </SwiperSlide>
         <SwiperSlide>
+          <a href='https://github.com/federerkristijan/food-order-app'>Food Order App</a>
           <img src={Food} alt='slide3' />
         </SwiperSlide>
       </Swiper>
