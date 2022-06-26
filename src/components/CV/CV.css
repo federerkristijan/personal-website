@@ -21,9 +21,9 @@
 }
 
 .i-cv > img:hover {
-  transform: scale(1.8);
-  margin-bottom: 6rem;
-  margin-top: 6rem;
+  transform: scale(2.2);
+  margin-bottom: 9rem;
+  margin-top: 9rem;
 }
 
 @media screen and (max-width:780px) {
