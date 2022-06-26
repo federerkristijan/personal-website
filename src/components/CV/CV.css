@@ -33,7 +33,7 @@
   }
 
   .i-cv > img:hover {
-    transform: scale(0.2);
+    /* transform: scale(0.2); */
     margin-bottom: 6rem;
     margin-top: 7rem;
   }
