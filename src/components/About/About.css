@@ -22,7 +22,7 @@
 @media screen and (max-width:780px) {
   .about-wrapper {
     height: 30vh;
-    margin-bottom: 35rem;
+    margin-bottom: 38rem;
   }
 
   .a-heading {
@@ -31,7 +31,7 @@
   }
 
   .a-text {
-    font-size: 1.2rem;
+    font-size: 1rem;
     line-height: 1.5rem;
     font-weight: bold;
     letter-spacing: 0.2rem;
