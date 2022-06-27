@@ -6,13 +6,13 @@
   height: 70rem;
   margin-bottom: 4rem;
   margin-top: 3rem;
+  margin-left: 1rem;
 }
 
 .cv-button {
   width: 6rem;
   height: 3rem;
-  margin-top: 3rem;
-  /* margin-bottom: 4rem; */
+  margin-top: 2rem;
 }
 
 .i-cv img {
@@ -21,20 +21,21 @@
 }
 
 .i-cv > img:hover {
-  transform: scale(2.2);
+  transform: scale(2);
   margin-bottom: 9rem;
   margin-top: 9rem;
 }
 
-@media screen and (max-width:780px) {
+@media screen and (max-width:520px) {
   .cv-wrapper {
     margin-top: 10rem;
     height: 35rem;
+    margin-bottom: 8rem;
   }
 
   .i-cv > img:hover {
-    /* transform: scale(0.2); */
-    margin-bottom: 6rem;
-    margin-top: 7rem;
+    margin-bottom: 1rem;
+    margin-top: 3rem;
+    transform: scale(1);
   }
 }

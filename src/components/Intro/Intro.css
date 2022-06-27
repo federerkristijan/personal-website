@@ -130,7 +130,7 @@
   }
 }
 
-@media screen and (max-width:780px) {
+@media screen and (max-width:520px) {
   .intro {
     flex-direction: column;
     left: 3rem;
