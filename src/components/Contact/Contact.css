@@ -46,7 +46,7 @@ textarea {
   left: 8rem;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 520px) {
   .text h1 {
     color: var(--text);
     font-weight: bold;
