@@ -36,6 +36,6 @@
   .i-cv > img:hover {
     margin-bottom: 1rem;
     margin-top: 3rem;
-    transform: scale(1);
+    transform: none;
   }
 }
