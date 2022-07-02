@@ -5,7 +5,7 @@ import CV_pdf from '../../assets/images/CV.pdf'
 
 const CV = () => {
   return (
-    <div className='cv-wrapper'>
+    <div className='cv-wrapper' id='cv'>
       <div className="i-cv">
         <img src={CV_png} alt='cv' />
       </div>
