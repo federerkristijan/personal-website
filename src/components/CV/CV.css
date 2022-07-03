@@ -26,7 +26,7 @@
   margin-top: 9rem;
 }
 
-@media screen and (max-width:520px) {
+@media screen and (max-width: 520px) {
   .cv-wrapper {
     margin-top: 10rem;
     height: 35rem;
@@ -36,5 +36,7 @@
 
   .i-cv > img:hover {
     transform: none;
+    margin-bottom: 9rem;
+    margin-top: 9rem;
   }
 }
