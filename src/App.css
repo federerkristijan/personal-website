@@ -10,7 +10,7 @@
     --orangeCard: rgba(252, 166, 31, 0.45);
     --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
     --text: #f3750d;
-    --background: linear-gradient(190deg, #f8e0f3 16.71%, #c0c8e7 99.36%);
+    --background: linear-gradient(190deg, #f8f3e0 16.71%, #f6dca0 99.36%);
 }
 
 .App{

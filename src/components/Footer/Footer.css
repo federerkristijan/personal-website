@@ -1,9 +1,10 @@
 .footer-wrapper {
   display: flex;
   align-items: center;
-  margin: -0.5rem -3.5rem;
+  margin: -0.5rem -3.2rem;
   margin-top: 5rem;
-  max-width: 100%;
+  margin-left: -3rem;
+  min-width: 100%;
   background: grey;
 }
 
@@ -13,7 +14,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  min-width: 100%;
+  min-width: 130vw;
   margin-top: 4rem;
   gap: 3.5rem;
   color: var(--orange);
@@ -31,7 +32,7 @@
     transform: scale(0.8);
     gap: 1rem;
     background: var(--background);
-    min-width: 132vw;
+    min-width: 130.3vw;
     margin: auto -13vw;
   }
 }
