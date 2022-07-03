@@ -14,7 +14,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  min-width: 100%;
+  min-width: 130vw;
   margin-top: 4rem;
   gap: 3.5rem;
   color: var(--orange);
@@ -32,7 +32,7 @@
     transform: scale(0.8);
     gap: 1rem;
     background: var(--background);
-    min-width: 130.5vw;
+    min-width: 130.3vw;
     margin: auto -13vw;
   }
 }
