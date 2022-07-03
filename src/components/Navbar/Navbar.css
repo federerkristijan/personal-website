@@ -67,14 +67,17 @@
 }
 
 @media screen and (max-width: 520px) {
-  .n-list > ul {
+  .navbar {
+    min-width: 110%;
+  }
+
+  .n-logo {
     display: none;
   }
 
-  .n-left {
+  .n-right {
     display: flex;
-    justify-content: center;
-    padding-left: 20vw;
-
+    justify-content: space-between;
+    margin-left: -0.7rem;
   }
 }

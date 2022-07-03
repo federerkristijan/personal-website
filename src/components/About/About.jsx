@@ -3,7 +3,7 @@ import "./About.css";
 
 const About = () => {
   return (
-    <div className="about-wrapper">
+    <div className="about-wrapper" id="about">
       <div className="a-heading">About me</div>
       <div className="a-text">
         Originally from Zagreb, Croatia, based in Berlin, Germany. I'm a passionate digital native, cosmopolite and polyglot, driven by a
