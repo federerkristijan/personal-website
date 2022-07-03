@@ -31,11 +31,10 @@
     margin-top: 10rem;
     height: 35rem;
     margin-bottom: 8rem;
+    padding-top: 3rem;
   }
 
   .i-cv > img:hover {
-    margin-bottom: 1rem;
-    margin-top: 3rem;
     transform: none;
   }
 }
