@@ -1,9 +1,9 @@
 .footer-wrapper {
   display: flex;
   align-items: center;
-  margin: -0.5rem -3.2rem;
+  /* margin: -0.5rem -3.2rem; */
   margin-top: 5rem;
-  margin-left: -3rem;
+  margin-left: -1.8rem;
   min-width: 100%;
   background: grey;
 }
@@ -14,7 +14,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  min-width: 130vw;
+  min-width: 100%;
   margin-top: 4rem;
   gap: 3.5rem;
   color: var(--orange);
@@ -28,11 +28,12 @@
 }
 
 @media screen and (max-width: 520px){
+  .footer-wrapper {
+    width: 100%;
+  }
+
   .f-content{
-    transform: scale(0.8);
     gap: 1rem;
     background: var(--background);
-    min-width: 130.3vw;
-    margin: auto -13vw;
   }
 }
