@@ -22,7 +22,7 @@
   }
 
   /* slider */
-  .portfolio .swiper {
+  /* .portfolio .swiper {
     overflow: visible!important;
 
   }
@@ -37,7 +37,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
+  } */
 
   .portfolio img {
     width: 19rem;
@@ -58,7 +58,7 @@
     min-height: 40rem;
   }
 
-  .portfolio span:nth-of-type(1) {
+  /* .portfolio span:nth-of-type(1) {
     font-size: 1.3rem;
   }
 
@@ -74,5 +74,5 @@
   .portfolio img {
     width: 10rem;
     margin-bottom: 1rem;
-  }
+  } */
 }
