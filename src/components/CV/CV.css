@@ -16,19 +16,20 @@
 }
 
 .i-cv img {
+  margin-top: 2rem;
   width: 13rem;
   border-radius: 10%;
 }
 
 .i-cv > img:hover {
-  transform: scale(2);
-  margin-bottom: 9rem;
+  transform: scale(1.6);
+  margin-bottom: 5rem;
   margin-top: 9rem;
 }
 
 @media screen and (max-width: 520px) {
   .cv-wrapper {
-    margin-top: 10rem;
+    margin-top: 2rem;
     height: 35rem;
     margin-bottom: 8rem;
     padding-top: 3rem;
