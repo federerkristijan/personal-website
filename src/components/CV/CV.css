@@ -16,12 +16,13 @@
 }
 
 .i-cv img {
+  margin-top: 2rem;
   width: 13rem;
   border-radius: 10%;
 }
 
 .i-cv > img:hover {
-  transform: scale(2);
+  transform: scale(1.6);
   margin-bottom: 9rem;
   margin-top: 9rem;
 }
