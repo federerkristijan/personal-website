@@ -23,7 +23,7 @@
 @media screen and (max-width:700px) {
   .about-wrapper {
     min-height: 30vh;
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
   }
 
   .a-heading {
