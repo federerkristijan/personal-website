@@ -54,7 +54,7 @@
 @media screen and (max-width: 520px) {
   .navbar {
     min-width: 96vw;
-    margin-left: -1.8rem;
+    margin-left: -1.5rem;
   }
 
   .n-logo {
@@ -62,7 +62,7 @@
   }
 
   .n-right {
-    margin-left: -8vw;
+    margin-left: -6vw;
 
   }
 

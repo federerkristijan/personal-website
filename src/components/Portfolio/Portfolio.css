@@ -3,8 +3,8 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  max-height: 70vh;
-  margin-bottom: 1rem;
+  max-height: 33vh;
+  margin-bottom: 12rem;
 }
 
   /* header */
@@ -50,12 +50,14 @@
     font-size: 1rem;
     text-align: center;
     margin-bottom: 1rem;
+    text-decoration: none;
   }
 
 @media screen and (max-width: 768px) {
   .portfolio {
     padding: 0;
-    min-height: 40rem;
+    min-height: 20vh;
+    margin-left: 2rem;
   }
 
   .portfolio span:nth-of-type(1) {
@@ -65,14 +67,15 @@
   .portfolio span:nth-of-type(2) {
     font-size: 2rem;
     margin-top: 1rem;
+    margin-bottom: -1rem;
   }
 
   .swiper-wrapper {
-    gap: 5rem;
+    gap: 6.5rem;
   }
 
   .portfolio img {
     width: 10rem;
-    margin-bottom: 1rem;
+    margin-bottom: 6rem;
   }
 }
