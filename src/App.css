@@ -1,16 +1,16 @@
 :root
 {
-  --yellow: #F5C32C;
-    --orange : #ffaa21;
+  --yellow: #362cf5;
+    --orange : #2164ff;
     --black : #242D49;
     --gray : #788097;
     --blueCard : #DDF8FE;
     --purple: rgb(238 210 255);
     --boxShadow : 0px 19px 60px rgb(0 0 0 / 8%);
-    --orangeCard: rgba(252, 166, 31, 0.45);
+    --orangeCard: rgba(31, 71, 252, 0.45);
     --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
-    --text: #f3750d;
-    --background: linear-gradient(190deg, #f8f3e0 16.71%, #f6dca0 99.36%);
+    --text: #0d15f3;
+    --background: linear-gradient(190deg, #e0e0f8 16.71%, #a9a0f6 99.36%);
 }
 
 .App{
@@ -27,7 +27,7 @@
   color:white;
   font-size: 16px;
   padding: 11px 26px 11px 26px;
-  background: linear-gradient(180deg, #fdc50f 26.71%, #fb982f 99.36%);
+  background: linear-gradient(180deg, #242ef6 26.71%, #4021ef 99.36%);
   box-shadow: 0px 20px 24px 3px rgba(251, 161, 40, 0.42);
 }
 
