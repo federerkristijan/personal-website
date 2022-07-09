@@ -3,8 +3,9 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  max-height: 33vh;
+  max-height: 77vh;
   margin-bottom: 12rem;
+  margin-top: 8rem;
 }
 
   /* header */
