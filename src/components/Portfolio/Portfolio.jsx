@@ -1,53 +1,66 @@
-import React from "react";
+import React, { Component } from "react";
 import "./Portfolio.css";
-import { Swiper, SwiperSlide } from 'swiper/react'
-// import CarouselSlider from "react-carousel-slider";
+import Slider from "react-slick";
 import "swiper/css";
 import Scoobie from "../../assets/images/scoobie2.png";
 import Mine from "../../assets/images/minesweeper.png";
 import Food from "../../assets/images/fooderly_responsive.png";
 
-const Portfolio = () => {
-  // let data = [
-  //   {
-  //     des: "Scoobie: dating App for dogs",
-  //     imgSrc: { Scoobie },
-  //     des: "Minesweeper Game",
-  //     imgSrc: { Mine },
-  //     des: "Food Order App",
-  //     imgSrc: { Food },
-  //   },
-  // ];
+export default class SimpleSlider extends Component {
+  render() {
+    const settings = {
+      dots: true,
+      infinite: false,
+      speed: 500,
+      slidesToShow: 2,
+      slidesToScroll: 2,
+      initialSlide: 0,
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            infinite: true,
+            dots: true,
+          },
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            initialSlide: 1,
+          },
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+          },
+        },
+      ],
+    };
 
-  return (
-    <div className="portfolio" id="portfolio">
-      {/* heading */}
-      <span>Recent Projects</span>
-      <span>Portfolio</span>
-      {/* slider */}
-      <Swiper
-      spaceBetween={10}
-      slidesPerView={2}
-      grabCursor={true}
-      className='portfolio-slider'
-      >
-        <SwiperSlide>
-        <a href='https://github.com/sailman86/scoobie'>Scoobie: dating App for dogs</a>
-          <img src={Scoobie} alt='slide1' />
-        </SwiperSlide>
-        <SwiperSlide>
-          <a href='https://github.com/federerkristijan/minesweeper'>Minesweeper Game</a>
-          <img src={Mine} alt='slide2' />
-        </SwiperSlide>
-        <SwiperSlide>
-          <a href='https://github.com/federerkristijan/food-order-app'>Food Order App</a>
-          <img src={Food} alt='slide3' />
-        </SwiperSlide>
-      </Swiper>
-      {/* carousel slider */}
-      {/* <CarouselSlider slideItems={data} height = {"60px"} width = {"60px"} /> */}
-    </div>
-  );
-};
-
-export default Portfolio;
+    return (
+      <div>
+        <h2>Recent Projects</h2>
+        <Slider {...settings}>
+          <div>
+            <a href="https://github.com/sailman86/scoobie" >Scoobie: dating App for dogs</a>
+            <img src={Scoobie} alt="Scoobie" />
+          </div>
+          <div>
+            <a href="https://github.com/federerkristijan/minesweeper" >Minesweeper Game</a>
+            <img src={Mine} alt="Mine" />
+          </div>
+          <div>
+            <a href="https://github.com/federerkristijan/food-order-app">Food Order App</a>
+            <img src={Food} alt="Food" />
+          </div>
+        </Slider>
+      </div>
+    );
+  }
+}
