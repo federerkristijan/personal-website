@@ -1,9 +1,8 @@
 .contact-form {
   padding: 0 3rem 0 3rem;
   display: flex;
-  height: 80vh;
-  margin-top: -33rem;
-  padding-top: 3rem;
+  max-height: 77vh;
+  margin-top: 12rem;
 }
 
 .text h1 {
