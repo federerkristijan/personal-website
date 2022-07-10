@@ -235,3 +235,12 @@ h2 {
 {
     margin-bottom: 30px;
 }
+
+@media screen and (max-width: 520px) {
+  .slick-slide img
+{
+    display: block;
+    height: 230px;
+    width: 100%;
+}
+}
