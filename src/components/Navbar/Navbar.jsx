@@ -47,11 +47,11 @@ const Navbar = () => {
                 About
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link to="cv" spy={true} smooth={true}>
                 CV
               </Link>
-            </li>
+            </li> */}
             <li>
               <Link to="portfolio" spy={true} smooth={true}>
                 Portfolio
