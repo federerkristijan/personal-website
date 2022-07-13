@@ -48,15 +48,21 @@ export default class SimpleSlider extends Component {
         <h2>Recent Projects</h2>
         <Slider {...settings}>
           <div>
-            <a href="https://github.com/sailman86/scoobie" >Scoobie: dating App for dogs</a>
+            <a href="https://github.com/sailman86/scoobie" >
+              Scoobie: dating App for dogs
+            </a>
             <img src={Scoobie} alt="Scoobie" />
           </div>
           <div>
-            <a href="https://github.com/federerkristijan/minesweeper" >Minesweeper Game</a>
+            <a href="https://github.com/federerkristijan/minesweeper">
+              Minesweeper Game
+            </a>
             <img src={Mine} alt="Mine" />
           </div>
           <div>
-            <a href="https://github.com/federerkristijan/food-order-app">Food Order App</a>
+            <a href="https://github.com/federerkristijan/food-order-app">
+              Food Order App
+            </a>
             <img src={Food} alt="Food" />
           </div>
         </Slider>
