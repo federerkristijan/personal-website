@@ -8,7 +8,6 @@
   align-items: center;
   padding: 0.5rem 0.5rem;
   border-radius: 25px;
-  background: white;
   transition: all .7s ease-in;
   overflow: none;
 }
@@ -47,7 +46,7 @@
 
 .n-list > ul > li:hover {
   cursor: pointer;
-  color: var(--orange);
+  color: var(--blue1);
 }
 
 @media screen and (max-width: 520px) {
