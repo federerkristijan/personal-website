@@ -14,12 +14,11 @@ const Toggle = () => {
   };
 
   return (
-    <div className="toggle">
+    <div className="toggle" onClick={HandleClick}>
       <Moon />
       <Sun />
       <div
         className="t-button"
-        onClick={HandleClick}
         style={darkMode ? { left: "2px" } : { right: "2px" }}
       ></div>
     </div>

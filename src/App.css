@@ -2,7 +2,7 @@
 {
   --yellow: #362cf5;
     --blue1 : #2164ff;
-    --black : #242D49;
+    --black : linear-gradient(190deg, #333333d4 46.71%, #0000008c 69.36%);;
     --gray : #788097;
     --blueCard : #DDF8FE;
     --purple: rgb(238 210 255);
@@ -10,7 +10,8 @@
     --blue1Card: rgba(31, 71, 252, 0.45);
     --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
     --text: #0d15f3;
-    --background: linear-gradient(190deg, #ffffff 16.71%, #d4d2e58c 99.36%);
+    --footer: #d4d2e58c;
+    --background: linear-gradient(190deg, #ffffff 36.71%, #d4d2e58c 69.36%);
 }
 
 .App{
