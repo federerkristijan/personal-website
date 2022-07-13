@@ -86,12 +86,15 @@ h2 {
 .slick-slide a {
   text-decoration: none;
   text-align: -webkit-center;
+  padding-bottom: 1rem;
+  font-size: 1.5rem;
 }
 
 .slick-slide img {
   display: block;
   height: 350px;
   border-radius: 15px;
+  margin-top: 1rem;
 }
 .slick-slide.slick-loading img {
   display: none;
