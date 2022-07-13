@@ -47,7 +47,7 @@
 
 .n-list > ul > li:hover {
   cursor: pointer;
-  color: var(--orange);
+  color: var(--blue1);
 }
 
 @media screen and (max-width: 520px) {

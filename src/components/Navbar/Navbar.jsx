@@ -2,6 +2,7 @@
 import "./Navbar.css";
 import Logo from "../../assets/images/kf_logo.png";
 import { Link } from "react-scroll";
+import Toggle from "./Toggle/Toggle";
 
 const Navbar = () => {
   // const [scrolled, setScrolled] = React.useState(false)
@@ -33,6 +34,7 @@ const Navbar = () => {
             <img src={Logo} alt="logo1" height="60rem" width="60rem" />
           </Link>
         </div>
+        <Toggle />
       </div>
       <div className="n-right">
         <div className="n-list">
