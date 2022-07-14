@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Navbar.css";
 import Logo from "../../assets/images/kf_logo.png";
 import Logo2 from "../../assets/images/kf_logo2.png";
-import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
 import Toggle from "./Toggle/Toggle";
 import { themeContext } from "../../Context";
 import { useContext } from "react";
@@ -54,7 +54,9 @@ const Navbar = () => {
           )}
         </Link>
         {/* Toggle component */}
+        <div className="nav-toggle">
         <Toggle />
+        </div>
         {/* Menu icon */}
         <div className="menu-icon" onClick={clickHandler}>
           <i className={click ? "fas fa-times" : "fas fa bars"} />
@@ -62,7 +64,7 @@ const Navbar = () => {
         <ul className={click ? "nav-menu active" : "nav-menu"}>
           <li className="nav-item">
             <Link to="/" className="nav-links" onClick={closeMobileMenu}>
-              <i className="fas fa-bars" />
+              <i className="fas fa-bars"  />
             </Link>
           </li>
           {/* Menu */}
@@ -81,7 +83,7 @@ const Navbar = () => {
             {dropdown && <Dropdown />}
             {/* Nav-items */}
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
             <Link
               activeClass="active"
               className="nav-links"
@@ -113,8 +115,8 @@ const Navbar = () => {
               smooth={true}
             >
               Portfolio
-            </Link>
-          </li>
+            </Link> */}
+          {/* </li> */}
         </ul>
       </nav>
     </>
