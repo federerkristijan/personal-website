@@ -18,6 +18,7 @@
   justify-self: start;
   margin-left: 20px;
   cursor: pointer;
+  margin-right: 5rem;
 }
 
 .nav-menu {
@@ -49,12 +50,12 @@
 }
 
 .fa-bars {
-  /* color: #fff; */
+  color: red;
 }
 
-.nav-links-mobile {
+/* .nav-links-mobile {
   display: none;
-}
+} */
 
 .menu-icon {
   display: none;

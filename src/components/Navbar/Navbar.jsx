@@ -7,6 +7,9 @@ import Toggle from "./Toggle/Toggle";
 import { themeContext } from "../../Context";
 import { useContext } from "react";
 import Dropdown from "./Dropdown";
+import About from "../About/About";
+import Intro from "../Intro/Intro";
+import Portfolio from "../Portfolio/Portfolio";
 
 const Navbar = () => {
   const [click, setClick] = useState(false);
@@ -42,6 +45,7 @@ const Navbar = () => {
   return (
     <>
       <nav className="navbar">
+        {/* Logos  */}
         <Link to="/" className="navbar-logo" spy={true} smooth={true} onClick={closeMobileMenu}>
           {darkMode ? (
             <img src={Logo2} alt="logo" height="60rem" width="60rem" />
@@ -49,16 +53,19 @@ const Navbar = () => {
             <img src={Logo} alt="logo" height="60rem" width="60rem" />
           )}
         </Link>
+        {/* Toggle component */}
         <Toggle />
-        <div className="menu-icon" on onClick={clickHandler}>
+        {/* Menu icon */}
+        <div className="menu-icon" onClick={clickHandler}>
           <i className={click ? "fas fa-times" : "fas fa bars"} />
         </div>
         <ul className={click ? "nav-menu active" : "nav-menu"}>
           <li className="nav-item">
             <Link to="/" className="nav-links" onClick={closeMobileMenu}>
-              Menu
+              <i className="fas fa-bars" />
             </Link>
           </li>
+          {/* Menu */}
           <li
             className="nav-item"
             onMouseEnter={onMouseEnter}
@@ -72,13 +79,14 @@ const Navbar = () => {
               <i className="fas fa-caret-down" />
             </Link>
             {dropdown && <Dropdown />}
+            {/* Nav-items */}
             </li>
             <li className="nav-item">
             <Link
               activeClass="active"
               className="nav-links"
               onClick={closeMobileMenu}
-              to="Navbar"
+              to="intro"
               spy={true}
               smooth={true}
             >
@@ -96,7 +104,7 @@ const Navbar = () => {
               About
             </Link>
           </li>
-          <li>
+          <li className="nav-item">
             <Link
               to="portfolio"
               className="nav-links"
