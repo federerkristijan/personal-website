@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Navbar.css";
 import Logo from "../../assets/images/kf_logo.png";
 import Logo2 from "../../assets/images/kf_logo2.png";
-import { Link } from "react-scroll";
+import { Link } from "react-router-dom";
 import Toggle from "./Toggle/Toggle";
 import { themeContext } from "../../Context";
 import { useContext } from "react";
@@ -40,8 +40,8 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="navbar">
-      <div className="n-logo">
+    <>
+      <nav className="navbar">
         <Link to="/" spy={true} smooth={true} onClick={closeMobileMenu}>
           {darkMode ? (
             <img src={Logo2} alt="logo" height="60rem" width="60rem" />
@@ -49,56 +49,67 @@ const Navbar = () => {
             <img src={Logo} alt="logo" height="60rem" width="60rem" />
           )}
         </Link>
-      </div>
-      <Toggle />
-      <div className="menu-icon" on onClick={clickHandler}>
-        <i className={click ? "fas fa-times" : "fas fa bars"} />
-      </div>
-      <ul className={click ? "nav-menu active" : "nav-menu"}>
-        <li
-          className="nav-item"
-          onMouseEnter={onMouseEnter}
-          onMouseLeave={onMouseLeave}
-        >
-          <Link to="/services" className="nav-links" onClick={closeMobileMenu}>
-            <i className="fas fa-caret-down" />
-          </Link>
-          {dropdown && <Dropdown />}
-          <Link
-            activeClass="active"
-            className="nav-links"
-            onClick={closeMobileMenu}
-            to="Navbar"
-            spy={true}
-            smooth={true}
+        <Toggle />
+        <div className="menu-icon" on onClick={clickHandler}>
+          <i className={click ? "fas fa-times" : "fas fa bars"} />
+        </div>
+        <ul className={click ? "nav-menu active" : "nav-menu"}>
+          <li className="nav-item">
+            <Link to="/" className="nav-links" onClick={closeMobileMenu}>
+              Home
+            </Link>
+          </li>
+          <li
+            className="nav-item"
+            onMouseEnter={onMouseEnter}
+            onMouseLeave={onMouseLeave}
           >
-            Home
-          </Link>
-        </li>
-        <li>
-          <Link
-            to="about"
-            className="nav-links"
-            onClick={closeMobileMenu}
-            spy={true}
-            smooth={true}
-          >
-            About
-          </Link>
-        </li>
-        <li>
-          <Link
-            to="portfolio"
-            className="nav-links"
-            onClick={closeMobileMenu}
-            spy={true}
-            smooth={true}
-          >
-            Portfolio
-          </Link>
-        </li>
-      </ul>
-    </nav>
+            <Link
+              to="/services"
+              className="nav-links"
+              onClick={closeMobileMenu}
+            >
+              <i className="fas fa-caret-down" />
+            </Link>
+            {dropdown && <Dropdown />}
+            </li>
+            <li className="nav-item">
+            <Link
+              activeClass="active"
+              className="nav-links"
+              onClick={closeMobileMenu}
+              to="Navbar"
+              spy={true}
+              smooth={true}
+            >
+              Home
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link
+              to="about"
+              className="nav-links"
+              onClick={closeMobileMenu}
+              spy={true}
+              smooth={true}
+            >
+              About
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="portfolio"
+              className="nav-links"
+              onClick={closeMobileMenu}
+              spy={true}
+              smooth={true}
+            >
+              Portfolio
+            </Link>
+          </li>
+        </ul>
+      </nav>
+    </>
   );
 };
 

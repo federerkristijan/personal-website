@@ -38,7 +38,7 @@
 }
 
 .nav-links {
-  color: white;
+  /* color: white; */
   text-decoration: none;
   padding: 0.5rem 1rem;
 }
@@ -50,7 +50,7 @@
 }
 
 .fa-bars {
-  color: #fff;
+  /* color: #fff; */
 }
 
 .nav-links-mobile {
@@ -128,5 +128,9 @@
     width: 80%;
     text-decoration: none;
     font-size: 1.5rem;
+  }
+
+  .nav-links:hover {
+    transition: 250ms;
   }
 }

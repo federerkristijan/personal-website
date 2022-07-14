@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
-import './Dropdown.css';
-import { Link } from 'react-router-dom';
-import { MenuItems } from './MenuItems';
+import React, { useState } from "react";
+import "./Dropdown.css";
+import { Link } from "react-router-dom";
+import { MenuItems } from "./MenuItems";
 
 const Dropdown = () => {
   const [click, setClick] = useState(false);
@@ -19,11 +19,15 @@ const Dropdown = () => {
         {MenuItems.map((item, index) => {
           return (
             <li key={index}>
-              <Link className={item.name} to={item.path} onClick={() => setClick(false)}>
+              <Link
+                className={item.name}
+                to={item.path}
+                onClick={() => setClick(false)}
+              >
                 {item.title}
               </Link>
             </li>
-          )
+          );
         })}
       </ul>
     </>
