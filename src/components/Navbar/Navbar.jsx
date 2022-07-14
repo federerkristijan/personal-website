@@ -1,4 +1,4 @@
-// import React, { useEffect } from "react";
+import React, { useState } from "react";
 import "./Navbar.css";
 import Logo from "../../assets/images/kf_logo.png";
 import Logo2 from "../../assets/images/kf_logo2.png";
@@ -8,15 +8,46 @@ import { themeContext } from "../../Context";
 import { useContext } from "react";
 
 const Navbar = () => {
+  const [click, setClick] = useState(false);
+  const [dropdown, setDropdown] = useState(false);
+
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
 
+  const clickHandler = () => {
+    setClick(!click);
+  };
+
+  const closeMobileMenu = () => {
+    setClick(false);
+  };
+
+  const onMouseEnter = () => {
+    if (window.innerWidth < 960) {
+      setDropdown(false);
+    } else {
+      setDropdown(true);
+    }
+  };
+
+  const onMouseLeave = () => {
+    if (window.innerWidth < 960) {
+      setDropdown(false);
+    } else {
+      setDropdown(false);
+    }
+  }
+
   return (
-    <div className="navbar" >
+    <div className="navbar">
       <div className="n-left">
         <div className="n-logo">
-          <Link to="contact" spy={true} smooth={true}>
-            {darkMode ? <img src={Logo2} alt="logo" height="60rem" width="60rem" /> :<img src={Logo} alt="logo" height="60rem" width="60rem" />}
+          <Link to="/" spy={true} smooth={true} onClick={closeMobileMenu}>
+            {darkMode ? (
+              <img src={Logo2} alt="logo" height="60rem" width="60rem" />
+            ) : (
+              <img src={Logo} alt="logo" height="60rem" width="60rem" />
+            )}
           </Link>
         </div>
         <Toggle />
