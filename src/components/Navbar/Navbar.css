@@ -13,7 +13,7 @@
   overflow: none;
 }
 
-.n-logo {
+.navbar-logo {
   padding-left: 2rem;
   justify-self: start;
   margin-left: 20px;
@@ -38,7 +38,6 @@
 }
 
 .nav-links {
-  /* color: white; */
   text-decoration: none;
   padding: 0.5rem 1rem;
 }

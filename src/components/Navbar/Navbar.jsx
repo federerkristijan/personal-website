@@ -42,7 +42,7 @@ const Navbar = () => {
   return (
     <>
       <nav className="navbar">
-        <Link to="/" spy={true} smooth={true} onClick={closeMobileMenu}>
+        <Link to="/" className="navbar-logo" spy={true} smooth={true} onClick={closeMobileMenu}>
           {darkMode ? (
             <img src={Logo2} alt="logo" height="60rem" width="60rem" />
           ) : (
@@ -56,7 +56,7 @@ const Navbar = () => {
         <ul className={click ? "nav-menu active" : "nav-menu"}>
           <li className="nav-item">
             <Link to="/" className="nav-links" onClick={closeMobileMenu}>
-              Home
+              Menu
             </Link>
           </li>
           <li
