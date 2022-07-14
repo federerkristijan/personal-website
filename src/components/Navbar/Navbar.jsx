@@ -36,44 +36,60 @@ const Navbar = () => {
     } else {
       setDropdown(false);
     }
-  }
+  };
 
   return (
-    <div className="navbar">
-      <div className="n-left">
-        <div className="n-logo">
-          <Link to="/" spy={true} smooth={true} onClick={closeMobileMenu}>
-            {darkMode ? (
-              <img src={Logo2} alt="logo" height="60rem" width="60rem" />
-            ) : (
-              <img src={Logo} alt="logo" height="60rem" width="60rem" />
-            )}
+    <nav className="navbar">
+      <div className="n-logo">
+        <Link to="/" spy={true} smooth={true} onClick={closeMobileMenu}>
+          {darkMode ? (
+            <img src={Logo2} alt="logo" height="60rem" width="60rem" />
+          ) : (
+            <img src={Logo} alt="logo" height="60rem" width="60rem" />
+          )}
+        </Link>
+      </div>
+      <Toggle />
+      <div className="menu-icon" on onClick={clickHandler}>
+        <i className={click ? "fas fa-times" : "fas fa bars"} />
+      </div>
+      <ul className={click ? "nav-menu active" : "nav-menu"}>
+        <li className="nav-item">
+          <Link
+            activeClass="active"
+            className="nav-links"
+            onClick={closeMobileMenu}
+            to="Navbar"
+            spy={true}
+            smooth={true}
+          >
+            Home
           </Link>
-        </div>
-        <Toggle />
-      </div>
-      <div className="n-right">
-        <div className="n-list">
-          <ul>
-            <li>
-              <Link activeClass="active" to="Navbar" spy={true} smooth={true}>
-                Home
-              </Link>
-            </li>
-            <li>
-              <Link to="about" spy={true} smooth={true}>
-                About
-              </Link>
-            </li>
-            <li>
-              <Link to="portfolio" spy={true} smooth={true}>
-                Portfolio
-              </Link>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
+        </li>
+        <li>
+          <Link
+            to="about"
+            className="nav-links"
+            onClick={closeMobileMenu}
+            spy={true}
+            smooth={true}
+          >
+            About
+          </Link>
+        </li>
+        <li>
+          <Link
+            to="portfolio"
+            className="nav-links"
+            onClick={closeMobileMenu}
+            spy={true}
+            smooth={true}
+          >
+            Portfolio
+          </Link>
+        </li>
+      </ul>
+    </nav>
   );
 };
 
