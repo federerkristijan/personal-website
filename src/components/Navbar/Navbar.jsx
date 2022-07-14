@@ -6,6 +6,7 @@ import { Link } from "react-scroll";
 import Toggle from "./Toggle/Toggle";
 import { themeContext } from "../../Context";
 import { useContext } from "react";
+import Dropdown from "./Dropdown";
 
 const Navbar = () => {
   const [click, setClick] = useState(false);
@@ -54,7 +55,15 @@ const Navbar = () => {
         <i className={click ? "fas fa-times" : "fas fa bars"} />
       </div>
       <ul className={click ? "nav-menu active" : "nav-menu"}>
-        <li className="nav-item">
+        <li
+          className="nav-item"
+          onMouseEnter={onMouseEnter}
+          onMouseLeave={onMouseLeave}
+        >
+          <Link to="/services" className="nav-links" onClick={closeMobileMenu}>
+            <i className="fas fa-caret-down" />
+          </Link>
+          {dropdown && <Dropdown />}
           <Link
             activeClass="active"
             className="nav-links"
