@@ -93,7 +93,7 @@ h2 {
 .slick-slide img {
   display: block;
   height: 350px;
-  width: 2rem;
+  width: auto;
   border-radius: 15px;
   margin-top: 1rem;
 }

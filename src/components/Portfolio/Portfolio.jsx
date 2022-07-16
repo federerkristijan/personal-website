@@ -6,6 +6,7 @@ import Scoobie from "../../assets/images/scoobie2.png";
 import Mine from "../../assets/images/minesweeper.png";
 import Food from "../../assets/images/fooderly_responsive.png";
 import Weather from "../../assets/images/weatherapp.png";
+import Space from "../../assets/images/spaceinvaders.png";
 
 export default class SimpleSlider extends Component {
   render() {
@@ -55,10 +56,10 @@ export default class SimpleSlider extends Component {
             <img src={Scoobie} alt="Scoobie" />
           </div>
           <div>
-            <a href="https://github.com/federerkristijan/minesweeper">
-              Minesweeper Game
+            <a href="https://github.com/federerkristijan/weatherapp">
+              Weather App
             </a>
-            <img src={Mine} alt="Mine" />
+            <img src={Weather} alt="WeatherApp" />
           </div>
           <div>
             <a href="https://github.com/federerkristijan/food-order-app">
@@ -67,10 +68,16 @@ export default class SimpleSlider extends Component {
             <img src={Food} alt="Food" />
           </div>
           <div>
-            <a href="https://github.com/federerkristijan/weatherapp">
-              Weather App
+            <a href="https://github.com/federerkristijan/space-invaders">
+              Space Invaders Game
             </a>
-            <img src={Weather} alt="WeatherApp" />
+            <img src={Space} alt="SpaceInv" />
+          </div>
+          <div>
+            <a href="https://github.com/federerkristijan/minesweeper">
+              Minesweeper Game
+            </a>
+            <img src={Mine} alt="Mine" />
           </div>
         </Slider>
       </div>
