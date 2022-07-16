@@ -71,7 +71,7 @@ export default class SimpleSlider extends Component {
             <a href="https://github.com/federerkristijan/space-invaders">
               Space Invaders Game
             </a>
-            <img src={Space} alt="SpaceInv" style={{ height: "40vh", width: "30vw" }}/>
+            <img src={Space} alt="SpaceInv" />
           </div>
           <div>
             <a href="https://github.com/federerkristijan/minesweeper">

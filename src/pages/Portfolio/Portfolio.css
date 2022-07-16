@@ -218,13 +218,22 @@ h2 {
     overflow: hidden;
 
     margin: 0 30px;
-    padding: 0;
+    gap: 3rem;
   }
 
   .slick-slide img {
     display: block;
-    height: 260px;
-    width: fit-content;
+    height: 35vh;
+    width: auto;
     border-radius: 15px;
+  }
+
+  .slick-slide a {
+    font-size: 1rem;
+  }
+
+  .slick-slide img[alt="SpaceInv"], img[alt="Food"] {
+    height: 35vh;
+    width: 50vw;
   }
 }
