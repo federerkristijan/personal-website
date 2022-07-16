@@ -1,13 +1,16 @@
-import Navbar from "./components/Navbar/Navbar"
-import Intro from "./components/Intro/Intro"
-import './App.css'
-// import CV from "./components/CV/CV"
-import About from "./components/About/About"
-import Portfolio from "./components/Portfolio/Portfolio"
-import Contact from "./components/Contact/Contact"
-import Footer from "./components/Footer/Footer"
 import { themeContext } from "./Context"
 import { useContext } from "react"
+
+import Navbar from "./components/Navbar/Navbar"
+import Footer from "./components/Footer/Footer"
+
+import Intro from "./pages/Intro/Intro"
+import About from "./pages/About/About"
+import Portfolio from "./pages/Portfolio/Portfolio"
+import Contact from "./pages/Contact/Contact"
+
+import './App.css'
+
 
 function App() {
   const theme = useContext(themeContext)
@@ -20,7 +23,6 @@ function App() {
       <Intro />
       <Portfolio />
       <About />
-      {/* <CV /> */}
       <Contact />
       <Footer />
     </div>
