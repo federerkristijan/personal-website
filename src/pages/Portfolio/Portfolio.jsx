@@ -5,7 +5,6 @@ import "swiper/css";
 import Scoobie from "../../assets/images/scoobie2.png";
 import Mine from "../../assets/images/minesweeper.png";
 import Food from "../../assets/images/fooderly_responsive.png";
-import Weather from "../../assets/images/weatherapp.png";
 
 export default class SimpleSlider extends Component {
   render() {
@@ -65,12 +64,6 @@ export default class SimpleSlider extends Component {
               Food Order App
             </a>
             <img src={Food} alt="Food" />
-          </div>
-          <div>
-            <a href="https://github.com/federerkristijan/weatherapp">
-              Weather App
-            </a>
-            <img src={Weather} alt="WeatherApp" />
           </div>
         </Slider>
       </div>
