@@ -1,0 +1,80 @@
+.s-container {
+  display: flex;
+  flex-direction: column;
+  height: 77vh;
+  width: auto;
+  margin-top: 13rem;
+  margin-bottom: 13rem;
+}
+
+.s-wrapper {
+  margin-bottom: 2.5rem;
+}
+
+.s-wrapper h1 {
+  color: var(--black);
+  font-weight: bold;
+  font-size: 2.3rem;
+  line-height: 1rem;
+  margin: 3rem 0;
+}
+
+.s-text span {
+  color: var(--text);
+  font-weight: 545;
+  font-size: 1.6rem;
+  line-height: 2.5rem;
+  letter-spacing: 0.1rem;
+}
+
+.i-wrapper h1 {
+  color: var(--black);
+  font-weight: bold;
+  font-size: 2.3rem;
+  line-height: 1rem;
+  margin: 3rem 0;
+}
+
+.i-text span {
+  color: var(--text);
+  font-weight: 545;
+  font-size: 1.6rem;
+  line-height: 2.5rem;
+  letter-spacing: 0.1rem;
+}
+
+@media screen and (max-width:700px) {
+  .skills-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 30vh;
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+  }
+
+  .s-heading h1 {
+    font-size: 1.8rem;
+    line-height: 0.5rem;
+    margin-bottom: 1.8rem;
+  }
+
+  .s-text span {
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+  }
+
+  .i-heading h1 {
+    font-size: 1.8rem;
+    line-height: 0.5rem;
+    margin-bottom: 1.8rem;
+  }
+
+  .i-text span {
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+  }
+}
