@@ -25,11 +25,6 @@ const Navbar = () => {
         <div className="n-list">
           <ul>
             <li>
-              <Link activeClass="active" to="Navbar" spy={true} smooth={true}>
-                Home
-              </Link>
-            </li>
-            <li>
               <Link to="about" spy={true} smooth={true}>
                 About
               </Link>
