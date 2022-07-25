@@ -10,6 +10,7 @@ import Portfolio from "./pages/Portfolio/Portfolio"
 import Contact from "./pages/Contact/Contact"
 
 import './App.css'
+import Skills from "./pages/Skills/Skills"
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
       <Intro />
       <Portfolio />
       <About />
+      <Skills />
       <Contact />
       <Footer />
     </div>
