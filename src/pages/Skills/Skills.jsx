@@ -10,9 +10,9 @@ const Skills = () => {
             <h1>Skills</h1>
           </div>
           <div className="s-text">
-            <span>Javacript, React, Hugo, Ruby on Rails, HTML, CSS/SASS</span>
+            <span>Javascript, React, Hugo, Ruby on Rails, HTML, CSS/SASS</span>
             <br />
-            <span>PostgreSQL, GitHub, Sanity, Vercel, Heroku, Figma</span>
+            <span>PostgreSQL, GitHub, Sanity, Vercel, Heroku, Bootstrap, Figma</span>
           </div>
         </div>
       </div>
