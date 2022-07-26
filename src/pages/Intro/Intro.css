@@ -27,7 +27,7 @@
 }
 
 .i-name > :nth-child(2) {
-  color: var(--text);
+  color: var(--black);
   font-weight: 100;
   font-size: 1.5rem;
   line-height: 1.6rem;

@@ -17,7 +17,7 @@ h1 {
 }
 
 span {
-  color: var(--text);
+  color: var(--black);
   font-weight: 545;
   font-size: 1.6rem;
   line-height: 2.5rem;

@@ -47,7 +47,7 @@ textarea {
 
 @media screen and (max-width: 520px) {
   .text h1 {
-    color: var(--text);
+    color: var(--black);
     font-weight: bold;
     font-size: 1.8rem;
     letter-spacing: 0.1rem;
