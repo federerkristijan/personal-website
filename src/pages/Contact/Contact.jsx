@@ -18,7 +18,7 @@ const Contact = () => {
         "service_md6sl5x",
         "template_92hpdem",
         form.current,
-        process.env.EMAILJS_PUBLIC_KEY
+        "PeMqd63ixaE07sXTX"
       )
 
       .then(
