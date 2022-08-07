@@ -7,6 +7,7 @@ import Mine from "../../assets/images/minesweeper.png";
 import Food from "../../assets/images/fooderly_responsive.png";
 import Weather from "../../assets/images/weatherapp.png";
 import Space from "../../assets/images/spaceinvaders.png";
+import Ecommerce from "../../assets/images/ecommerce.png";
 
 export default class SimpleSlider extends Component {
   render() {
@@ -66,6 +67,12 @@ export default class SimpleSlider extends Component {
               Food Order App
             </a>
             <img src={Food} alt="Food" />
+          </div>
+          <div>
+            <a href="/" target="_blank" rel="noreferrer">
+              Ecommere
+            </a>
+            <img src={Ecommerce} alt="Ecommerce" />
           </div>
           <div>
             <a href="https://github.com/federerkristijan/space-invaders" target="_blank" rel="noreferrer">
