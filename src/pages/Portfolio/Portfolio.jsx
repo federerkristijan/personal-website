@@ -107,7 +107,10 @@ export default class SimpleSlider extends Component {
             >
               Space Invaders Game
             </a>
-            <img src={Space} alt="SpaceInv" />
+            <a href="https://space-invaders-navy.vercel.app/" target="_blank"
+              rel="noreferrer">
+              <img src={Space} alt="SpaceInv" />
+            </a>
           </div>
           <div>
             <a
@@ -117,7 +120,10 @@ export default class SimpleSlider extends Component {
             >
               Minesweeper Game
             </a>
+            <a>
             <img src={Mine} alt="Mine" />
+            </a>
+
           </div>
         </Slider>
       </div>
