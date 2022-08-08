@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "./Portfolio.css";
 import Slider from "react-slick";
 import "swiper/css";
+
 import Scoobie from "../../assets/images/scoobie2.png";
 import Mine from "../../assets/images/minesweeper.png";
 import Food from "../../assets/images/fooderly_responsive.png";
@@ -69,10 +70,12 @@ export default class SimpleSlider extends Component {
             <img src={Food} alt="Food" />
           </div>
           <div>
-            <a href="https://ecommerce-lyart-iota.vercel.app" target="_blank" rel="noreferrer">
+            <a href="https://github.com/federerkristijan/ecommerce" target="_blank" rel="noreferrer">
               Ecommerce
             </a>
-            <img src={Ecommerce} alt="Ecommerce" />
+            <a href="https://ecommerce-lyart-iota.vercel.app">
+              <img src={Ecommerce} alt="Ecommerce" />
+            </a>
           </div>
           <div>
             <a href="https://github.com/federerkristijan/space-invaders" target="_blank" rel="noreferrer">
