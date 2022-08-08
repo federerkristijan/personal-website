@@ -52,39 +52,69 @@ export default class SimpleSlider extends Component {
         <h2>Recent Projects</h2>
         <Slider {...settings}>
           <div>
-            <a href="https://github.com/sailman86/scoobie" target="_blank" rel="noreferrer" >
+            <a
+              href="https://github.com/sailman86/scoobie"
+              target="_blank"
+              rel="noreferrer"
+            >
               Scoobie: dating App for dogs
             </a>
-            <img src={Scoobie} alt="Scoobie" />
+            <a href="http://www.scoobie.xyz/" target="_blank" rel="noreferrer">
+              <img src={Scoobie} alt="Scoobie" />
+            </a>
           </div>
           <div>
-            <a href="https://github.com/federerkristijan/weatherapp" target="_blank" rel="noreferrer">
+            <a
+              href="https://github.com/federerkristijan/weatherapp"
+              target="_blank"
+              rel="noreferrer"
+            >
               Weather App
             </a>
             <img src={Weather} alt="WeatherApp" />
           </div>
           <div>
-            <a href="https://github.com/federerkristijan/food-order-app" target="_blank" rel="noreferrer">
+            <a
+              href="https://github.com/federerkristijan/food-order-app"
+              target="_blank"
+              rel="noreferrer"
+            >
               Food Order App
             </a>
             <img src={Food} alt="Food" />
           </div>
           <div>
-            <a href="https://github.com/federerkristijan/ecommerce" target="_blank" rel="noreferrer">
+            <a
+              href="https://github.com/federerkristijan/ecommerce"
+              target="_blank"
+              rel="noreferrer"
+            >
               Ecommerce
             </a>
-            <a href="https://ecommerce-lyart-iota.vercel.app">
+            <a
+              href="https://ecommerce-lyart-iota.vercel.app"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img src={Ecommerce} alt="Ecommerce" />
             </a>
           </div>
           <div>
-            <a href="https://github.com/federerkristijan/space-invaders" target="_blank" rel="noreferrer">
+            <a
+              href="https://github.com/federerkristijan/space-invaders"
+              target="_blank"
+              rel="noreferrer"
+            >
               Space Invaders Game
             </a>
             <img src={Space} alt="SpaceInv" />
           </div>
           <div>
-            <a href="https://github.com/federerkristijan/minesweeper" target="_blank" rel="noreferrer">
+            <a
+              href="https://github.com/federerkristijan/minesweeper"
+              target="_blank"
+              rel="noreferrer"
+            >
               Minesweeper Game
             </a>
             <img src={Mine} alt="Mine" />
