@@ -2,11 +2,13 @@ import React, { Component } from "react";
 import "./Portfolio.css";
 import Slider from "react-slick";
 import "swiper/css";
+
 import Scoobie from "../../assets/images/scoobie2.png";
 import Mine from "../../assets/images/minesweeper.png";
 import Food from "../../assets/images/fooderly_responsive.png";
 import Weather from "../../assets/images/weatherapp.png";
 import Space from "../../assets/images/spaceinvaders.png";
+import Ecommerce from "../../assets/images/ecommerce.png";
 
 export default class SimpleSlider extends Component {
   render() {
@@ -57,7 +59,9 @@ export default class SimpleSlider extends Component {
             >
               Scoobie: dating App for dogs
             </a>
-            <img src={Scoobie} alt="Scoobie" />
+            <a href="http://www.scoobie.xyz/" target="_blank" rel="noreferrer">
+              <img src={Scoobie} alt="Scoobie" />
+            </a>
           </div>
           <div>
             <a
@@ -84,6 +88,22 @@ export default class SimpleSlider extends Component {
               Food Order App
             </a>
             <img src={Food} alt="Food" />
+          </div>
+          <div>
+            <a
+              href="https://github.com/federerkristijan/ecommerce"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Ecommerce
+            </a>
+            <a
+              href="https://ecommerce-lyart-iota.vercel.app"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={Ecommerce} alt="Ecommerce" />
+            </a>
           </div>
           <div>
             <a
