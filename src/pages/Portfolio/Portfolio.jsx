@@ -69,8 +69,8 @@ export default class SimpleSlider extends Component {
             <img src={Food} alt="Food" />
           </div>
           <div>
-            <a href="/" target="_blank" rel="noreferrer">
-              Ecommere
+            <a href="https://ecommerce-lyart-iota.vercel.app" target="_blank" rel="noreferrer">
+              Ecommerce
             </a>
             <img src={Ecommerce} alt="Ecommerce" />
           </div>
