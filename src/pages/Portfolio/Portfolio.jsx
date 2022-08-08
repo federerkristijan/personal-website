@@ -71,7 +71,13 @@ export default class SimpleSlider extends Component {
             >
               Weather App
             </a>
-            <img src={Weather} alt="WeatherApp" />
+            <a
+              href="weatherapp-fawn-gamma.vercel.app"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={Weather} alt="WeatherApp" />
+            </a>
           </div>
           <div>
             <a
@@ -107,8 +113,11 @@ export default class SimpleSlider extends Component {
             >
               Space Invaders Game
             </a>
-            <a href="https://space-invaders-navy.vercel.app/" target="_blank"
-              rel="noreferrer">
+            <a
+              href="https://space-invaders-navy.vercel.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img src={Space} alt="SpaceInv" />
             </a>
           </div>
@@ -120,10 +129,7 @@ export default class SimpleSlider extends Component {
             >
               Minesweeper Game
             </a>
-            <a>
             <img src={Mine} alt="Mine" />
-            </a>
-
           </div>
         </Slider>
       </div>
