@@ -72,7 +72,7 @@ export default class SimpleSlider extends Component {
               Weather App
             </a>
             <a
-              href="weatherapp-fawn-gamma.vercel.app"
+              href="https://weatherapp-fawn-gamma.vercel.app/"
               target="_blank"
               rel="noreferrer"
             >
