@@ -1,7 +1,7 @@
 import { themeContext } from "./Context"
 import { useContext } from "react"
 
-import Navbar from "./components/Navbar/Navbar"
+import NavbarMenu from "./components/Navbar/NavbarMenu"
 import Footer from "./components/Footer/Footer"
 
 import Intro from "./pages/Intro/Intro"
@@ -20,7 +20,7 @@ function App() {
   return (
     <div className="App"
     style={{background: darkMode ? 'var(--black)' : '', color: darkMode ? 'white' : ''}}>
-      <Navbar />
+      <NavbarMenu />
       <Intro />
       <Portfolio />
       <About />
