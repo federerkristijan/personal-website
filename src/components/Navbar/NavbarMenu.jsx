@@ -17,7 +17,7 @@ const NavbarMenu = () => {
   const darkMode = theme.state.darkMode;
 
   return (
-    <Navbar className="navbar" bg="light" expand="lg">
+    <Navbar className="navbar" bg="light" expand="lg" style= {{ background: "white" }} >
       <Container>
         <div className="n-left">
           <div className="n-logo">
