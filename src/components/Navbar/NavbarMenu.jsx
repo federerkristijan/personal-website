@@ -2,8 +2,8 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 
-import "./Navbar.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "./Navbar.css";
 
 import Logo from "../../assets/images/kf_logo.png";
 import Logo2 from "../../assets/images/kf_logo2.png";
