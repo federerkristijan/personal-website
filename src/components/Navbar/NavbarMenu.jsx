@@ -3,7 +3,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./Navbar.css";
+import "./NavbarMenu.css";
 
 import Logo from "../../assets/images/kf_logo.png";
 import Logo2 from "../../assets/images/kf_logo2.png";
@@ -17,7 +17,7 @@ const NavbarMenu = () => {
   const darkMode = theme.state.darkMode;
 
   return (
-    <Navbar className="navbar" bg="light" expand="lg" style= {{ background: "white" }} >
+    <Navbar className="navbar" bg="light" expand="lg" >
       <Container>
         <div className="n-left">
           <div className="n-logo">
