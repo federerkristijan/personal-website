@@ -10,20 +10,19 @@ const Skills = () => {
             <h1>Skills</h1>
           </div>
           <div className="s-text">
-            <span>Javascript, React, Redux, Hugo, Ruby on Rails, HTML, CSS/SASS</span>
+            <h3>Javascript, React, Redux, HTML, CSS/SASS, GitHub,</h3>
             <br />
-            <span>PostgreSQL, GitHub, Sanity, Vercel, Heroku, Stripe, Bootstrap, Figma</span>
+            <span>
+              Hugo, Ruby on Rails, PostgreSQL,
+              <br />
+              Sanity, Vercel, Stripe, Bootstrap, Figma
+            </span>
           </div>
         </div>
       </div>
       <div className="i-wrapper">
         <div className="i-heading"></div>
         <h1>Interests</h1>
-        <div className="i-subheading">
-          <h3>
-
-          </h3>
-        </div>
         <div className="i-text">
           <span>Ecommerce, Gaming, VR & AR, Blockchain Technologies</span>
           <br />
