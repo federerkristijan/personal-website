@@ -9,6 +9,7 @@ import Food from "../../assets/images/fooderly_responsive.png";
 import Weather from "../../assets/images/weatherapp.png";
 import Space from "../../assets/images/spaceinvaders.png";
 import Ecommerce from "../../assets/images/ecommerce.png";
+import Ben from "../../assets/images/Ben_mobile.png";
 
 export default class SimpleSlider extends Component {
   render() {
@@ -57,10 +58,28 @@ export default class SimpleSlider extends Component {
               target="_blank"
               rel="noreferrer"
             >
-              Scoobie: dating App for dogs
+              Scoobie: dating App for dogs <br />
+              <p>(Bootcamp final project)</p>
             </a>
             <a href="http://www.scoobie.xyz/" target="_blank" rel="noreferrer">
               <img src={Scoobie} alt="Scoobie" />
+            </a>
+          </div>
+          <div>
+            <a
+              href="https://github.com/federerkristijan/businesscard-ben"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Ben Elan - Psychological counsellor <br />
+              <p>(Freelance project)</p>
+            </a>
+            <a
+              href="https://www.psychologicalcounsellor.de/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={Ben} alt="Ben's Website" />
             </a>
           </div>
           <div>
@@ -69,7 +88,8 @@ export default class SimpleSlider extends Component {
               target="_blank"
               rel="noreferrer"
             >
-              Weather App
+              Weather App <br />
+              <p>(Learning Project)</p>
             </a>
             <a
               href="https://weatherapp-fawn-gamma.vercel.app/"
@@ -85,7 +105,8 @@ export default class SimpleSlider extends Component {
               target="_blank"
               rel="noreferrer"
             >
-              Food Order App
+              Food Order App <br />
+              <p>(Learning Project)</p>
             </a>
             <img src={Food} alt="Food" />
           </div>
@@ -95,7 +116,8 @@ export default class SimpleSlider extends Component {
               target="_blank"
               rel="noreferrer"
             >
-              Ecommerce
+              Ecommerce <br />
+              <p>(Learning Project)</p>
             </a>
             <a
               href="https://ecommerce-lyart-iota.vercel.app"
@@ -111,7 +133,8 @@ export default class SimpleSlider extends Component {
               target="_blank"
               rel="noreferrer"
             >
-              Space Invaders Game
+              Space Invaders Game <br />
+              <p>(Learning Project)</p>
             </a>
             <a
               href="https://space-invaders-navy.vercel.app/"
@@ -127,7 +150,8 @@ export default class SimpleSlider extends Component {
               target="_blank"
               rel="noreferrer"
             >
-              Minesweeper Game
+              Minesweeper Game <br />
+              <p>(Learning Project)</p>
             </a>
             <img src={Mine} alt="Mine" />
           </div>
