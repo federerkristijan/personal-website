@@ -80,7 +80,11 @@ export default class SimpleSlider extends Component {
               target="_blank"
               rel="noreferrer"
             >
-              <img src={Ben} alt="Ben's Website" />
+              <img
+                src={Ben}
+                alt="Ben's Website"
+                style={{ border: "0.1px solid grey" }}
+              />
             </a>
           </div>
           <div>
@@ -97,7 +101,11 @@ export default class SimpleSlider extends Component {
               target="_blank"
               rel="noreferrer"
             >
-              <img src={Dasa} alt="Dasa's Website" />
+              <img
+                src={Dasa}
+                alt="Dasa's Website"
+                style={{ border: "0.1px solid grey" }}
+              />
             </a>
           </div>
           <div>
