@@ -84,6 +84,23 @@ export default class SimpleSlider extends Component {
           </div>
           <div>
             <a
+              href="https://github.com/federerkristijan/businesscard-ben"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Dasa Hink <br />
+              <p>(Freelance project)</p>
+            </a>
+            <a
+              href="https://www.dasahink.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={Dasa} alt="Dasa's Website" />
+            </a>
+          </div>
+          <div>
+            <a
               href="https://github.com/federerkristijan/weatherapp"
               target="_blank"
               rel="noreferrer"
