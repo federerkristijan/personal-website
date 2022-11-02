@@ -24,7 +24,7 @@ const Skills = () => {
         <div className="i-heading"></div>
         <h1>Interests</h1>
         <div className="i-text">
-          <span>Ecommerce, Gaming, VR & AR, Blockchain Technologies</span>
+          <span>Ecommerce, Gaming, VR & AR, Animations, Blockchain Technologies</span>
           <br />
           {/* <span>
             Cooking, Traveling, Dancing, Organisation of Events, Boardgames
