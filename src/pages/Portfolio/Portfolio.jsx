@@ -4,6 +4,7 @@ import Slider from "react-slick";
 import "swiper/css";
 
 import Scoobie from "../../assets/images/scoobie2.png";
+import Dasa from "../../assets/images/dasa.png";
 import Mine from "../../assets/images/minesweeper.png";
 import Food from "../../assets/images/fooderly_responsive.png";
 import Weather from "../../assets/images/weatherapp.png";
@@ -84,7 +85,7 @@ export default class SimpleSlider extends Component {
           </div>
           <div>
             <a
-              href="https://github.com/federerkristijan/businesscard-ben"
+              href="https://github.com/federerkristijan/dasahink"
               target="_blank"
               rel="noreferrer"
             >
