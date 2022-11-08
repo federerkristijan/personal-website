@@ -15,7 +15,7 @@
 }
 
 .App{
-    padding: 0.5rem 3.1rem;
+    padding: 0.5rem 9rem;
     overflow: hidden;
     color: var(--black);
     background: var(--background);
@@ -41,6 +41,6 @@
 
 @media screen and (max-width: 520px) {
   .App {
-    padding: 0.5 rem 1 rem;
+    padding: 0.5 rem 1rem;
   }
 }
