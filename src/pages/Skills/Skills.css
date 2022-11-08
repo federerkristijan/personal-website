@@ -7,6 +7,10 @@
   margin-bottom: 13rem;
 }
 
+.s-text {
+  text-align: justify;
+  gap: 1rem;
+}
 
 h1 {
   color: var(--black);

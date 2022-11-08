@@ -29,7 +29,7 @@
 .i-name > :nth-child(2) {
   color: var(--black);
   font-weight: 100;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   line-height: 1.6rem;
   letter-spacing: 0.1px;
 }

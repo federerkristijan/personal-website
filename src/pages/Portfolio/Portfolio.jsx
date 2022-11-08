@@ -18,8 +18,8 @@ export default class SimpleSlider extends Component {
       dots: true,
       infinite: false,
       speed: 500,
-      slidesToShow: 2,
-      slidesToScroll: 2,
+      slidesToShow: 1,
+      slidesToScroll: 1,
       initialSlide: 0,
       responsive: [
         {
