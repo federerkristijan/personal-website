@@ -13,7 +13,7 @@ const Skills = () => {
             <h3>Javascript, React, Redux, HTML, CSS/SASS, GitHub,</h3>
             <br />
             <span>
-              Hugo, Ruby on Rails, PostgreSQL,
+              Hugo, Ruby on Rails, PostgreSQL, Google Analytics
               <br />
               Sanity, Vercel, Stripe, Bootstrap, Figma
             </span>
@@ -24,7 +24,7 @@ const Skills = () => {
         <div className="i-heading"></div>
         <h1>Interests</h1>
         <div className="i-text">
-          <span>Ecommerce, Gaming, VR & AR, Animations, Blockchain Technologies</span>
+          <span>Ecommerce, VR & AR, Animations, Web3, Blockchain technologies, Gaming</span>
           <br />
           {/* <span>
             Cooking, Traveling, Dancing, Organisation of Events, Boardgames
