@@ -38,8 +38,11 @@ function App() {
       <CookieConsent
         debug={true}
         enableDeclineButton
+        onAccept={() => {
+          localStorage.setItem('cookies_enambled', '1');
+        }}
         onDecline={() => {
-          alert("nay!");
+          localStorage.setItem('cookies_enabled', '0');
         }}
         setDeclineCookie={true}
         flipButtons={true}
