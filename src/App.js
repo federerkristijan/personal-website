@@ -3,7 +3,7 @@ import { useContext, useEffect } from "react";
 //  credtis to https://github.com/react-ga/react-ga
 import ReactGA from "react-ga";
 // credits to https://github.com/Mastermindzh/react-cookie-consent
-import CookieConsent, { Cookies } from "react-cookie-consent";
+import CookieConsent from "react-cookie-consent";
 
 import NavbarMenu from "./components/Navbar/NavbarMenu";
 import Footer from "./components/Footer/Footer";
@@ -32,19 +32,24 @@ function App() {
       style={{
         background: darkMode ? "var(--black)" : "",
         color: darkMode ? "white" : "",
+        minWidth: "100%"
       }}
     >
       <CookieConsent
+        debug={true}
         enableDeclineButton
+        onAccept={() => {
+          localStorage.setItem('cookies_enambled', '1');
+        }}
         onDecline={() => {
-          alert("nay!");
+          localStorage.setItem('cookies_enabled', '0');
         }}
         setDeclineCookie={true}
         flipButtons={true}
         style={{ textAlign: "center", background: "grey" }}
         overlay={true}
-        buttonStyle={{ borderRadius: "7px" }}
-        declineButtonStyle={{ borderRadius: "7px" }}
+        buttonStyle={{ borderRadius: "7px", background: "var(--blue)", color: "white" }}
+        declineButtonStyle={{ borderRadius: "7px", background: "var(--purple)" }}
       >
         🍪 This site uses cookies. 🍪
       </CookieConsent>
