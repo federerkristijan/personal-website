@@ -36,7 +36,6 @@ function App() {
       }}
     >
       <CookieConsent
-        debug={true}
         enableDeclineButton
         onAccept={() => {
           localStorage.setItem('cookies_enambled', '1');
