@@ -50,7 +50,7 @@ export default class SimpleSlider extends Component {
     };
 
     return (
-      <div className="portfolio">
+      <div className="portfolio" id="portfolio">
         <h2>Recent Projects</h2>
         <Slider {...settings}>
           <div>
